@@ -1,0 +1,4 @@
+/* iOS Safari border doesnt pick up currentColor properly. Have to set explicitly */
+.body-section .button { border-color: #743C00; }
+
+.body-section--reversed .button { border-color: white; }

@@ -1,0 +1,5 @@
+.grid { font-size: 0; vertical-align: top; }
+
+.grid__cell { display: block; font-size: 1rem; vertical-align: top; }
+@media (min-width: 800px) { .grid__cell { display: inline-block; text-align: left; width: 41%; margin-left: 3%; margin-right: 3%; } }
+@media (min-width: 1200px) { .grid__cell { display: inline-block; text-align: left; width: 21.3333333333%; margin-left: 3%; margin-right: 3%; } }
