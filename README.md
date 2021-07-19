@@ -24,6 +24,7 @@ and [HAML](https://haml.info) is
 - Install the dependencies
 
   `$bundle config set --local path 'vendor/bundle'`
+  
   `$bundle install`
 
 - Build the site
