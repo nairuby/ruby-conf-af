@@ -11,6 +11,8 @@ A great example site using [Nanoc](https://nanoc.app)
 and [HAML](https://haml.info) is
 [Dan Healy's Resume](https://github.com/danhealy/danhealy-resume).
 
+An example [Nanoc template](https://github.com/lifepillar/nanoc4-template).
+
 ## Getting started
 
 - Clone this repository
