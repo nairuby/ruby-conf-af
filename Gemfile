@@ -4,4 +4,4 @@ gem 'nanoc', '~> 4.0'
 gem 'adsf'
 gem 'haml'
 gem 'sass'
-
+gem 'nokogumbo'

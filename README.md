@@ -29,11 +29,11 @@ and [HAML](https://haml.info) is
 
 - Build the site
 
-  `$nanoc`
+  `$bundle exec nanoc`
 
 - Locally view the site
 
-  `$nanoc view`
+  `$bundle exec nanoc view`
 
 Note that the generated website will be in the folder
 `output` which you can place on a webserver for production
