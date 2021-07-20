@@ -27,7 +27,7 @@ jobs:
 
       # setup Ruby
       - name: Ruby
-        run: apt-get install ruby-full
+        run: sudo apt-get install ruby-full
         
       # Build site
       - name: build
