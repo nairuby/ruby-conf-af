@@ -32,6 +32,7 @@ jobs:
       # Build site
       - name: build
         run: |
+          gem install bundler
           bundle config set --local path 'vendor/bundle'
           bundle install
           bundle exec nanoc
