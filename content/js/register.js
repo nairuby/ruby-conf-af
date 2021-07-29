@@ -9,6 +9,9 @@ function sendregistrationdata(){
 	let telephone = document.querySelector('#telephone');
 	let affiliation = document.querySelector('#affiliation');
 	let robots = document.querySelector('#_gotcha');
+	if (robots === null) {
+	 robots = "";
+	}
 	// Create XHR object
 	let xhr = new XMLHttpRequest();
 	let url = "http://my.api/register";
@@ -36,7 +39,6 @@ function sendregistrationdata(){
 		"affiliation" : affiliation.value,
 		"robots" : robots.value
 	})
-
 	// Send data with the request
 	xhr.send(data);
 }
