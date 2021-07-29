@@ -13,6 +13,13 @@ and [HAML](https://haml.info) is
 
 An example [Nanoc template](https://github.com/lifepillar/nanoc4-template).
 
+Information on changing HTML form submissions to json
+- [Amjad Abujamous "Submit HTML Forms to JSON APIs easily"](https://dev.to/amjadmh73/submit-html-forms-to-json-apis-easily-137l)
+- [Jordan Finners "How to easily convert HTML Form to JSON"](https://jordanfinners.dev/blogs/how-to-easily-convert-html-form-to-json)
+- [MDN Documentation "FormData"](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
+- [Sheikh005 "How to send a JSON object to a server using Javascript?"](https://www.geeksforgeeks.org/how-to-send-a-json-object-to-a-server-using-javascript/)
+- [MDN Documentation "XMLHttpRequest"](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
+
 ## Getting started
 
 - Clone this repository
@@ -40,6 +47,9 @@ An example [Nanoc template](https://github.com/lifepillar/nanoc4-template).
 Note that the generated website will be in the folder
 `output` which you can place on a webserver for production
 use.
+
+The registration page sends the data to an endpoint API
+which is specified in the file content/js/register.js
 
 ## Contributing
 
